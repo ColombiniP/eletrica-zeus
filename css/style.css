@@ -323,11 +323,13 @@ button {
   background: rgba(0,0,0,0.7);
   z-index: 998;
   opacity: 0;
+  pointer-events: none;
   transition: opacity var(--transition);
 }
 
 .nav-overlay.active {
   opacity: 1;
+  pointer-events: auto;
 }
 
 /* ============================================================
